@@ -1,0 +1,16 @@
+{
+  "name": "NodeFtp",
+  "version": "0.0.0",
+  "description": "NodeFtp",
+  "main": "app.js",
+  "author": {
+    "name": "T808751",
+    "email": ""
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^3.4.4",
+    "jade": "*",
+    "stylus": "^0.53.0"
+  }
+}
