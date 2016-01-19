@@ -8,7 +8,21 @@
         <% include partials/header %>
     </div>
     <div class="container body-content">
-        <h1>Hello <%= title %></h1>
+        <div 
+        <form class="form-inline">
+  <div class="form-group">
+  <div class="form-group">
+    <input type="text" class="form-control" id="searchkey" placeholder="enter filename or dir">
+  </div>
+  <button type="submit" class="btn btn-default">Search</button>
+</form>
+        </div>
+        <hr/>
+        <div>
+        <% data.forEach(function(file) { %>
+           <div><%=file %> </div>
+           <% }); %>
+        </div>
     </div>
     <hr>
     <% include partials/footer %>
